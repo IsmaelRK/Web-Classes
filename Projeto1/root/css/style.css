@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
+
+body
+{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    background-repeat: no-repeat;
+}
+
+
+.theme1
+{
+    background-color: #526D82;
+}
+
+.theme2
+{
+    background-image: url(/img/tree.jpg);
+    background-size: 100vw;
+}
+
+
+
+#div_H1
+{
+    background-color: #337CCF;
+    height: 5rem;
+    width: 15rem;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    justify-self: center;
+    align-self: center;
+
+    border-radius: 1rem;
+    box-shadow: 12px 12px 15px #000;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#lorem_P
+{
+
+    grid-row: 2;
+    grid-column: 2;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+
+    text-align: center;
+    align-self: center;
+
+}
+
+#img_Lorem
+{
+    grid-row: 3;
+    grid-column: 2;
+
+    height: 10rem;
+    width: 20rem;
+
+    justify-self: center;
+    align-self: center;
+
+}
+
+#btn
+{
+
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid #000;
+    background-color: #374259;
+    color: #fff;
+
+    text-align: center;
+    align-items: center;
+    justify-self: left;
+    align-self: center;
+    margin-left: 5rem;
+
+
+    grid-row: 3;
+    grid-column: 3;
+
+}
