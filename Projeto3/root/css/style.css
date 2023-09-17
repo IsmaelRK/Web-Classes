@@ -1,0 +1,62 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    color: #3283ec;
+    background-color: #F0F0F0;
+    background-image: linear-gradient(to bottom, #662549, #AE445A);
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+
+    text-align: center;
+    color: #71bd5a;
+}
+
+.prinTitle
+{
+
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+
+    width: 25%;
+    background-color: #4b6fd1;
+    border: 1px solid #ff9900;
+    border-radius: 1rem;
+}
+
+#hl
+{
+    text-decoration: overline;
+}
+
+/* .pDiv
+{
+
+    height: 10rem;
+    width: 40rem;
+    text-align: justify;
+
+    /* border: 1px solid #ff9900; */
+
+    /* margin: 0 auto;} */
+#par
+{
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+    text-align: right;
+}
+
+.menu
+{
+    border: 1px solid #ff9900;
+    width: 50%;
+
+    float: left;
+}

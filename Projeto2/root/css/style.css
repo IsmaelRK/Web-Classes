@@ -1,0 +1,52 @@
+body
+{
+    background-image: linear-gradient(to bottom, #108dc7, #ef8e38);
+    background-repeat: no-repeat;
+    height: 100vw;
+}
+
+
+#tit
+{
+    margin-top: 12rem;
+    text-align: center;
+    justify-self: center;
+    
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff8f8;
+}
+
+
+#cMagica
+{
+    text-align: center;
+    justify-self: center;
+
+    margin-top: 10rem;
+}
+
+#inp
+{
+
+    border: solid 5px;
+    border-color: #a2e0ff;
+    border-radius: 0.7rem;
+    width: 20rem;
+    height: 2rem;
+    box-shadow: 5px 5px 15px #000;
+
+}
+
+#btn
+{
+    margin-top: 2rem;
+    text-align: center;
+    background-color: #6b3fa0;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.9rem;
+    color: #fff8f8;
+
+    border: 1px solid #dbdbdb;
+    box-shadow: 5px 5px 10px #000;
+}
