@@ -3,9 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exemplo Displays</title>
 </head>
 <body>
-    
+
+    <style>
+        p
+        {
+            background-color: #949494
+        }
+
+        .displayBlock
+        {
+            display: block;
+        }
+
+        .displayInline > p
+        {
+            display: inline;
+        }
+
+        .displayInlineBlock
+        {
+            display: inline-block;
+        }
+
+        .displayFlex
+        {
+            display: flex;
+        }
+
+        .displayGrid
+        {
+            display: grid;
+        }
+
+    </style>
+
+    <div class="displayBlock">
+        <p>Paragrafo1</p>
+        <p>Paragrafo2</p>
+        <p>Paragrafo3</p>
+    </div>
+
+    <hr>
+
+    <div class="displayInline">
+        <p>Paragrafo1</p>
+        <p>Paragrafo2</p>
+        <p>Paragrafo3</p>
+    </div>
+
+    <hr>
+
+    <div class="displayInlineBlock">
+        <p>Paragrafo1</p>
+        <p>Paragrafo2</p>
+        <p>Paragrafo3</p>
+    </div>
+
+    <hr>
+
+    <div class="displayFlex">
+        <p>Paragrafo1</p>
+        <p>Paragrafo2</p>
+        <p>Paragrafo3</p>
+    </div>
+
+    <div class="displayGrid">
+        <p>Paragrafo1</p>
+        <p>Paragrafo2</p>
+        <p>Paragrafo3</p>
+    </div>
+
 </body>
 </html>

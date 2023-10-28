@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura de Seleção</title>
+</head>
+<body id="bd">
+
+
+
+    <script>
+
+        let num1 = 20
+        let num2 = 20
+
+        let sum = num1 + num2
+
+        if (sum > 15)
+        {
+
+            var bd = document.getElementById('bd')
+            // document.write("Resultado " + sum)
+            bd.innerHTML = `<p style="font-size: 20px; background-color: #008000; width: 8rem;">Resultado = ${sum}</p>`
+
+
+            var formL = document.createElement('form')
+            formL.id = 'idf'
+            bd.appendChild(formL)
+
+
+
+
+            var form1 = document.getElementById('idf')
+
+            let content = '<input type="text" placeholder="Insira o texto"> <br> <button type="submit">Enviar</button>'
+            form1.innerHTML = content
+
+
+            lst = [1, 2, 3]
+            for (var i = 0; i < 3; i++)
+            {
+                document.write(lst[i])
+            }
+
+
+        }
+    </script>
+
+</body>
+</html>
