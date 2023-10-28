@@ -1,0 +1,47 @@
+window:
+
+    .location -> informa ou define a url da window
+    .isSecureContext -> retorna um bool indicando se o contexto é seguro ou não
+    .innerHeight / Width -> pega o tamanho da area do conteudo da Height/Width do navegador, incluindo a barra de scroll
+
+document:
+
+    .title -> retora ou define o titulo da página
+    .cookie -> retorna os cookies associados ao documento
+    .lastModified -> retorna a data e hora da última modificação da página
+
+select:
+
+    .options -> retorna uma coleção de todos os elementos option
+    .length -> retorna o número de elementos option em um select
+
+
+
+--------------------------------------------------------------------
+
+8.
+
+window.open(URL, "_blank") -> Abre um link(URL) em uma nova aba(blank)
+
+window.close() -> Fecha a janela, podendo pedir permissão do browser
+
+
+document.querySelector(".minhaClasse") -> pega pelo seletor o primeiro item encontrado
+document.querySelectorAll(".minhaClasse") -> pega pelo seletor todos os itens encontrados
+
+
+input.select() -> copia o campo de entrada, para ser copiado
+
+--------------------------------------------------------------------
+
+9.
+
+onchange="minhaFuncao()"
+
+--------------------------------------------------------------------
+
+10.
+
+    <a href="javascript:minhaFuncao()">Clique aqui</a>
+
+    Considerando o js no escopo global, a função será executada
