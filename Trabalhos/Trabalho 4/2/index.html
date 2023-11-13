@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex 2</title>
+
+</head>
+<body>
+
+    <form action="#" method="POST">
+
+        Nome:<input name="nome" type="text" id="nome" size="20" required oninput="cnf1(this)"> <br>
+        <p id="nomeP" style="color: #ff1e00;"></p>
+
+        Senha:<input name="senha" type="text" id="senha" size="20" required oninput="cnf2(this)"><br>
+        <p id="senhaP" style="color: #ff1e00;"></p>
+
+        Confirma senha: <input name="senhaconf" type="text" id="senhaconf" size="20" required oninput="cnf3()">
+        <p id="senhaconfP" style="color: #ff1e00;"></p>
+
+        <br>
+        <input name="Enviar" type="button" id="Enviar" value="Enviar" style="display: none">
+
+
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

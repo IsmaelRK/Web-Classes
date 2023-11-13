@@ -1,0 +1,71 @@
+input, label
+{
+    margin-top: 10px;
+}
+
+input
+{
+    width: 15rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+label
+{
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+button
+{
+
+    width: 10rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+#clt
+{
+    margin-top: 2rem;
+}
+
+#all
+{
+    border-radius: 10px;
+
+    background-color: #1c63cb;
+
+    height: 25rem;
+    width: 35rem;
+
+    margin: 0 auto;
+
+    margin-top: 10rem;
+
+    display: flex;
+    flex-direction: column;
+
+
+    text-align: center;
+    color: #fff;
+
+}
+
+#nota
+{
+    border: 1px solid #000;
+    border-radius: 10px;
+
+    background-color: #bccb10;
+
+
+    height: 10rem;
+    width: 10rem;
+
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    color: #fff;
+    text-align: center;
+}

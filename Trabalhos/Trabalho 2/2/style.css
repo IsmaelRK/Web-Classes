@@ -1,0 +1,45 @@
+#all
+{
+    margin: 0 auto;
+    margin-top: 10rem;
+    height: 15rem;
+    width: 15rem;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
+    background-color: #2c91dc;
+
+    color: #fff;
+    text-align: center;
+
+}
+
+label
+{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#grv
+{
+
+    height: 2rem;
+    width: 7rem;
+    background-color: #fff;
+
+    text-align: center;
+}
+
+input
+{
+    height: 2rem;
+    width: 7rem;
+    text-align: center;
+}
+
+#grv, input
+{
+    margin: 0 auto;
+}

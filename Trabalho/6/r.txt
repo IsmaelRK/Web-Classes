@@ -1,1 +1,0 @@
-Correta: C, porém sem o parser, a soma poderia virar uma concatenação de strings

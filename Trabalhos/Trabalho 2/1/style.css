@@ -1,0 +1,46 @@
+#dv
+{
+
+    height: 7rem;
+    width: 30rem;
+
+    background-color: #1c63cb;
+    color: #fff;
+
+    margin: 0 auto;
+    margin-top: 10rem;
+
+    align-self: center;
+    justify-self: center;
+
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
+}
+
+#lbl, #num
+{
+    margin:  0 auto;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+#num
+{
+
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+#ans
+{
+    margin: 0 auto;
+}
+
+#par
+{
+    text-align: center;
+}

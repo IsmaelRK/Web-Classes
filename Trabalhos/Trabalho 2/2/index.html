@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Peso</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+
+    <div id="all">
+
+        <label for="grv">Selecione a Gravidade</label>
+        <select id="grv">
+
+            <option>Selecione</option>
+            <option value="0.37">Gravidade 1 - Mercúrio</option>
+            <option value="0.88">Gravidade 2 - Vênus</option>
+            <option value="0.38">Gravidade 3 - Marte</option>
+            <option value="2.64">Gravidade 4 - Júpiter</option>
+            <option value="1.15">Gravidade 5 - Saturno</option>
+            <option value="1.17">Gravidade 6 - Urano</option>
+
+        </select>
+
+        <label for="inp">Peso</label>
+        <input type="number" placeholder="Peso" id="inp" oninput="fnc(this)">
+
+
+        <div id="res">
+
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>
