@@ -1,0 +1,33 @@
+PHP 1.0 (1995):
+
+Lançado em 1995, o PHP foi originalmente desenvolvido como um conjunto de scripts CGI (Common Gateway Interface) por Rasmus Lerdorf. Era uma ferramenta simples para rastrear as visitas ao seu currículo online.
+PHP/FI (PHP/FI 2.0) (1997):
+
+O PHP/FI (Personal Home Page/Forms Interpreter) foi a primeira versão a incluir funcionalidades para formulários web, o que expandiu suas capacidades além do rastreamento de visitas.
+PHP 3 (1998):
+
+Uma reescrita significativa do PHP, a versão 3 trouxe melhor suporte a objetos, suporte a banco de dados mais amplo e uma sintaxe mais robusta.
+PHP 4 (2000):
+
+Essa versão trouxe melhorias substanciais em desempenho e estabilidade, além de introduzir suporte a objetos mais avançado.
+PHP 5 (2004):
+
+Uma grande atualização, a versão 5 introduziu recursos importantes, incluindo melhor suporte a objetos com a adição do modelo de objetos Zend Engine 2 (OE2), bem como a inclusão de características como a manipulação de exceções.
+PHP 5.3 (2009):
+
+Introduziu recursos como namespaces, late static binding, e suporte a phar (PHp ARchive), um formato de arquivo para distribuição de bibliotecas e aplicativos PHP.
+PHP 5.4 (2012):
+
+Adicionou suporte para Traits, melhorias de desempenho, sintaxe curta de array e outras melhorias na linguagem.
+PHP 5.6 (2014):
+
+Introduziu suporte a variáveis de argumentos de comprimento variável e operador de expansão (...), melhorias no gerenciamento de erros, entre outros.
+PHP 7.0 (2015):
+
+Uma das atualizações mais significativas em termos de desempenho, o PHP 7 trouxe o motor Zend Engine 3 (Zend Opcache), que resultou em uma melhoria significativa no desempenho. Além disso, introduziu declaração de tipo escalares e o operador de nave espacial (<=>).
+PHP 7.4 (2019):
+
+Introduziu recursos como atributos, tipos de propriedade covariantes e contravariantes, e melhorias na expressão throw para permitir lançar exceções em expressões.
+PHP 8.0 (2020):
+
+Introduziu recursos como expressões match, argumentos nomeados, atributos de classes e propriedades, e melhorias substanciais na tipagem estática
