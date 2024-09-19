@@ -1,0 +1,39 @@
+#body-flex {
+    display: flex;
+
+    justify-content: center;
+
+    background-color: #61a57a;
+}
+
+#form-index {
+
+    width: 15rem;
+    height: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-color {
+    background-color: #61a57a;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#main {
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: aliceblue;
+
+
+}
+
+.div {
+    margin: 1rem;
+}

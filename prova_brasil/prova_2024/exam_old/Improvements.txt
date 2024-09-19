@@ -1,0 +1,7 @@
+Interface mais intuitiva e condizente;
+
+Segurança Aprimorada;
+
+Código mais simplificado e legivel;
+
+Uso de framework, o tornando mais escalavel (apesar de ser um projeto simples);
